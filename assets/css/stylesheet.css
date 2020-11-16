@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4ab4f1;
+    color: #000;;
+    
+}
+.head{
+    margin-top: 1rem;
+    text-align: center;
+
+}
+#quiz{
+    font-weight: lighter;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+#buton{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color:#fff;
+}
+#buton:hover {
+    color: rgb(233, 64, 64);
+    background-color: #4ab4f1;
+
+}
+#uton{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color:#fff;
+}
+#uton:hover {
+    color: rgb(233, 64, 64);
+    background-color: #4ab4f1;
+}
+
