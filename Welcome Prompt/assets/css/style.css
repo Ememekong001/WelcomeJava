@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/leaf-5298312__480.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+
+}
+.container .bars{
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    left: 42px;
+    cursor: pointer;
+    z-index: 1;
+    top: 24px;
+
+}
+.container1{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .8);
+    transition: 1s ease-in-out;
+    display: none;
+
+}
+.inner{
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.inner a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: #ffffff;
+    display: block;
+    font-family: cursive;
+    font-weight: bolder;
+    padding-left: 16px;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    
+}
+.inner a:hover{
+    font-size: 2.5rem;
+    color: #00ff00;
+
+}
+.container1 .cross{
+    position: absolute;
+    color: #ffffff;
+    font-size: 28px;
+    right: 42px;
+    cursor: pointer;
+    z-index: 1;
+    top: 24px;
+}
+#welli{
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+#close{
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: cursive;
+    font-weight: bolder;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;   
+}
